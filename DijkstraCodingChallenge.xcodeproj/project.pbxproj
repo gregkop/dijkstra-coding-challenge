@@ -14,6 +14,13 @@
 		37D1EEA01B97B88500CA6AEE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37D1EE9F1B97B88500CA6AEE /* Images.xcassets */; };
 		37D1EEA31B97B88500CA6AEE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37D1EEA11B97B88500CA6AEE /* LaunchScreen.xib */; };
 		37D1EEAF1B97B88500CA6AEE /* DijkstraCodingChallengeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D1EEAE1B97B88500CA6AEE /* DijkstraCodingChallengeTests.m */; };
+		37D1EEBB1B97BAB300CA6AEE /* GooglePlacesAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D1EEBA1B97BAB300CA6AEE /* GooglePlacesAPIClient.m */; };
+		37D1EEC21B97CA2900CA6AEE /* DCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D1EEC11B97CA2900CA6AEE /* DCViewController.m */; };
+		37D1EEC51B97E87100CA6AEE /* DCPlace.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D1EEC41B97E87100CA6AEE /* DCPlace.m */; };
+		37D1EEC91B97EBED00CA6AEE /* DCPlaceAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D1EEC81B97EBED00CA6AEE /* DCPlaceAnnotation.m */; };
+		37D1EECD1B97EDAB00CA6AEE /* beer@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 37D1EECC1B97EDAB00CA6AEE /* beer@2x.png */; };
+		37D1EECF1B97EDB000CA6AEE /* beer.png in Resources */ = {isa = PBXBuildFile; fileRef = 37D1EECE1B97EDB000CA6AEE /* beer.png */; };
+		76318A133BE6A821701431D3 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8769BCD3D6D029B6FC2BA2D1 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +47,19 @@
 		37D1EEA81B97B88500CA6AEE /* DijkstraCodingChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DijkstraCodingChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		37D1EEAD1B97B88500CA6AEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		37D1EEAE1B97B88500CA6AEE /* DijkstraCodingChallengeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DijkstraCodingChallengeTests.m; sourceTree = "<group>"; };
+		37D1EEB91B97BAB300CA6AEE /* GooglePlacesAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GooglePlacesAPIClient.h; sourceTree = "<group>"; };
+		37D1EEBA1B97BAB300CA6AEE /* GooglePlacesAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GooglePlacesAPIClient.m; sourceTree = "<group>"; };
+		37D1EEC01B97CA2900CA6AEE /* DCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCViewController.h; sourceTree = "<group>"; };
+		37D1EEC11B97CA2900CA6AEE /* DCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCViewController.m; sourceTree = "<group>"; };
+		37D1EEC31B97E87100CA6AEE /* DCPlace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCPlace.h; sourceTree = "<group>"; };
+		37D1EEC41B97E87100CA6AEE /* DCPlace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCPlace.m; sourceTree = "<group>"; };
+		37D1EEC71B97EBED00CA6AEE /* DCPlaceAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCPlaceAnnotation.h; sourceTree = "<group>"; };
+		37D1EEC81B97EBED00CA6AEE /* DCPlaceAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCPlaceAnnotation.m; sourceTree = "<group>"; };
+		37D1EECC1B97EDAB00CA6AEE /* beer@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "beer@2x.png"; sourceTree = "<group>"; };
+		37D1EECE1B97EDB000CA6AEE /* beer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = beer.png; sourceTree = "<group>"; };
+		7D1CCBD1634E759089580AAA /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		8769BCD3D6D029B6FC2BA2D1 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD16058606A9D946A3102646 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76318A133BE6A821701431D3 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +81,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1A6429CCF6E8C60C08F63E67 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8769BCD3D6D029B6FC2BA2D1 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		37D1EE861B97B88500CA6AEE = {
 			isa = PBXGroup;
 			children = (
 				37D1EE911B97B88500CA6AEE /* DijkstraCodingChallenge */,
 				37D1EEAB1B97B88500CA6AEE /* DijkstraCodingChallengeTests */,
 				37D1EE901B97B88500CA6AEE /* Products */,
+				5165BFB57AC2A3C50E1A6972 /* Pods */,
+				1A6429CCF6E8C60C08F63E67 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,6 +112,10 @@
 		37D1EE911B97B88500CA6AEE /* DijkstraCodingChallenge */ = {
 			isa = PBXGroup;
 			children = (
+				37D1EECA1B97ED9D00CA6AEE /* Resources */,
+				37D1EEC61B97EBD400CA6AEE /* Annotations */,
+				37D1EEBC1B97C9E500CA6AEE /* ViewControllers */,
+				37D1EEB81B97BA2000CA6AEE /* Models */,
 				37D1EE961B97B88500CA6AEE /* AppDelegate.h */,
 				37D1EE971B97B88500CA6AEE /* AppDelegate.m */,
 				37D1EE991B97B88500CA6AEE /* ViewController.h */,
@@ -89,6 +124,8 @@
 				37D1EE9F1B97B88500CA6AEE /* Images.xcassets */,
 				37D1EEA11B97B88500CA6AEE /* LaunchScreen.xib */,
 				37D1EE921B97B88500CA6AEE /* Supporting Files */,
+				37D1EEB91B97BAB300CA6AEE /* GooglePlacesAPIClient.h */,
+				37D1EEBA1B97BAB300CA6AEE /* GooglePlacesAPIClient.m */,
 			);
 			path = DijkstraCodingChallenge;
 			sourceTree = "<group>";
@@ -119,6 +156,59 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		37D1EEB81B97BA2000CA6AEE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				37D1EEC31B97E87100CA6AEE /* DCPlace.h */,
+				37D1EEC41B97E87100CA6AEE /* DCPlace.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		37D1EEBC1B97C9E500CA6AEE /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				37D1EEC01B97CA2900CA6AEE /* DCViewController.h */,
+				37D1EEC11B97CA2900CA6AEE /* DCViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		37D1EEC61B97EBD400CA6AEE /* Annotations */ = {
+			isa = PBXGroup;
+			children = (
+				37D1EEC71B97EBED00CA6AEE /* DCPlaceAnnotation.h */,
+				37D1EEC81B97EBED00CA6AEE /* DCPlaceAnnotation.m */,
+			);
+			name = Annotations;
+			sourceTree = "<group>";
+		};
+		37D1EECA1B97ED9D00CA6AEE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				37D1EECB1B97EDA200CA6AEE /* Icons */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		37D1EECB1B97EDA200CA6AEE /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				37D1EECE1B97EDB000CA6AEE /* beer.png */,
+				37D1EECC1B97EDAB00CA6AEE /* beer@2x.png */,
+			);
+			name = Icons;
+			sourceTree = "<group>";
+		};
+		5165BFB57AC2A3C50E1A6972 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FD16058606A9D946A3102646 /* Pods.debug.xcconfig */,
+				7D1CCBD1634E759089580AAA /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +216,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 37D1EEB21B97B88500CA6AEE /* Build configuration list for PBXNativeTarget "DijkstraCodingChallenge" */;
 			buildPhases = (
+				B8444CBAE1452AFD8AAC6790 /* Check Pods Manifest.lock */,
 				37D1EE8B1B97B88500CA6AEE /* Sources */,
 				37D1EE8C1B97B88500CA6AEE /* Frameworks */,
 				37D1EE8D1B97B88500CA6AEE /* Resources */,
+				9BCD783D3ABBB4665056A412 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -200,7 +292,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				37D1EE9E1B97B88500CA6AEE /* Main.storyboard in Resources */,
+				37D1EECF1B97EDB000CA6AEE /* beer.png in Resources */,
 				37D1EEA31B97B88500CA6AEE /* LaunchScreen.xib in Resources */,
+				37D1EECD1B97EDAB00CA6AEE /* beer@2x.png in Resources */,
 				37D1EEA01B97B88500CA6AEE /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -214,13 +308,50 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9BCD783D3ABBB4665056A412 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B8444CBAE1452AFD8AAC6790 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		37D1EE8B1B97B88500CA6AEE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37D1EEC51B97E87100CA6AEE /* DCPlace.m in Sources */,
+				37D1EEBB1B97BAB300CA6AEE /* GooglePlacesAPIClient.m in Sources */,
+				37D1EEC91B97EBED00CA6AEE /* DCPlaceAnnotation.m in Sources */,
 				37D1EE9B1B97B88500CA6AEE /* ViewController.m in Sources */,
 				37D1EE981B97B88500CA6AEE /* AppDelegate.m in Sources */,
+				37D1EEC21B97CA2900CA6AEE /* DCViewController.m in Sources */,
 				37D1EE951B97B88500CA6AEE /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -345,6 +476,7 @@
 		};
 		37D1EEB31B97B88500CA6AEE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD16058606A9D946A3102646 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DijkstraCodingChallenge/Info.plist;
@@ -355,6 +487,7 @@
 		};
 		37D1EEB41B97B88500CA6AEE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D1CCBD1634E759089580AAA /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DijkstraCodingChallenge/Info.plist;
@@ -416,6 +549,7 @@
 				37D1EEB41B97B88500CA6AEE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		37D1EEB51B97B88500CA6AEE /* Build configuration list for PBXNativeTarget "DijkstraCodingChallengeTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +558,7 @@
 				37D1EEB71B97B88500CA6AEE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

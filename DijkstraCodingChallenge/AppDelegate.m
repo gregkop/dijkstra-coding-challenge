@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "DCViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,17 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    
+    DCViewController * mainViewController = [[DCViewController alloc] init];
+    
+    //Setup window & root view
+    self.navigationController = [[UINavigationController alloc] initWithRootViewController:mainViewController];
+    
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.rootViewController = self.navigationController;
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 
