@@ -8,13 +8,15 @@
 
 #import <Foundation/Foundation.h>
 #import <Mapkit/Mapkit.h>
+#import "DCPlace.h"
 
 @interface DCPlaceAnnotation : NSObject <MKAnnotation>
 
 @property(nonatomic, readonly) CLLocationCoordinate2D coordinate;
 @property(copy, nonatomic) NSString * title;
+@property(strong, nonatomic) DCPlace * place;
 
-- (id)initWithTitle:(NSString*)locationTitle Location:(CLLocationCoordinate2D)location;
+- (id)initWithPlace:(DCPlace *)place Location:(CLLocationCoordinate2D)location;
 - (MKAnnotationView *)annotationView;
 
 @end

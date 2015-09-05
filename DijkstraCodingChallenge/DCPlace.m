@@ -12,6 +12,7 @@
 
 + (NSDictionary *)JSONKeyPathsByPropertyKey {
     return @{
+             @"placeId" : @"id",
              @"name": @"name",
              @"vicinity": @"vicinity",
              @"longitude": @"geometry.location.lng",

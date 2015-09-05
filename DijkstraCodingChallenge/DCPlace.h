@@ -10,6 +10,7 @@
 
 @interface DCPlace : MTLModel <MTLJSONSerializing>
 
+@property(nonatomic, strong) NSString * placeId;
 @property(nonatomic, strong) NSString * name;
 @property(nonatomic, strong) NSString * icon;
 @property(nonatomic, strong) NSString * vicinity;

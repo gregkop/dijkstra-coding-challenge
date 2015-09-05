@@ -10,13 +10,14 @@
 
 @implementation DCPlaceAnnotation
 
--(id)initWithTitle:(NSString *)locationTitle Location:(CLLocationCoordinate2D)location
+-(id)initWithPlace:(DCPlace *)place Location:(CLLocationCoordinate2D)location
 {
     self = [super init];
     
     if(self)
     {
-        _title = locationTitle;
+        _title = place.name;
+        _place = place;
         _coordinate = location;
     }
     
@@ -29,7 +30,7 @@
     annotationView.enabled = YES;
     annotationView.canShowCallout = YES;
     annotationView.image = [UIImage imageNamed:@"beer"];
-    annotationView.rightCalloutAccessoryView = [UIButton buttonWithType:UIButtonTypeDetailDisclosure];
+    annotationView.rightCalloutAccessoryView = [UIButton buttonWithType:UIButtonTypeContactAdd];
     
     return annotationView;
 }

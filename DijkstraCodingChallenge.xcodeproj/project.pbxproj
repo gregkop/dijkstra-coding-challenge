@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		37D1EE951B97B88500CA6AEE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D1EE941B97B88500CA6AEE /* main.m */; };
 		37D1EE981B97B88500CA6AEE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D1EE971B97B88500CA6AEE /* AppDelegate.m */; };
-		37D1EE9B1B97B88500CA6AEE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D1EE9A1B97B88500CA6AEE /* ViewController.m */; };
 		37D1EE9E1B97B88500CA6AEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37D1EE9C1B97B88500CA6AEE /* Main.storyboard */; };
 		37D1EEA01B97B88500CA6AEE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37D1EE9F1B97B88500CA6AEE /* Images.xcassets */; };
 		37D1EEA31B97B88500CA6AEE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37D1EEA11B97B88500CA6AEE /* LaunchScreen.xib */; };
@@ -20,6 +19,9 @@
 		37D1EEC91B97EBED00CA6AEE /* DCPlaceAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D1EEC81B97EBED00CA6AEE /* DCPlaceAnnotation.m */; };
 		37D1EECD1B97EDAB00CA6AEE /* beer@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 37D1EECC1B97EDAB00CA6AEE /* beer@2x.png */; };
 		37D1EECF1B97EDB000CA6AEE /* beer.png in Resources */ = {isa = PBXBuildFile; fileRef = 37D1EECE1B97EDB000CA6AEE /* beer.png */; };
+		37D1EED91B99227C00CA6AEE /* MJDijkstra.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D1EED41B99227C00CA6AEE /* MJDijkstra.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		37D1EEDA1B99227C00CA6AEE /* MJPriorityDictionary.mm in Sources */ = {isa = PBXBuildFile; fileRef = 37D1EED61B99227C00CA6AEE /* MJPriorityDictionary.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		37D1EEDB1B99227C00CA6AEE /* MJPriorityQueue.mm in Sources */ = {isa = PBXBuildFile; fileRef = 37D1EED81B99227C00CA6AEE /* MJPriorityQueue.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		76318A133BE6A821701431D3 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8769BCD3D6D029B6FC2BA2D1 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -39,8 +41,6 @@
 		37D1EE941B97B88500CA6AEE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		37D1EE961B97B88500CA6AEE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		37D1EE971B97B88500CA6AEE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		37D1EE991B97B88500CA6AEE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		37D1EE9A1B97B88500CA6AEE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		37D1EE9D1B97B88500CA6AEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		37D1EE9F1B97B88500CA6AEE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		37D1EEA21B97B88500CA6AEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -57,6 +57,12 @@
 		37D1EEC81B97EBED00CA6AEE /* DCPlaceAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCPlaceAnnotation.m; sourceTree = "<group>"; };
 		37D1EECC1B97EDAB00CA6AEE /* beer@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "beer@2x.png"; sourceTree = "<group>"; };
 		37D1EECE1B97EDB000CA6AEE /* beer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = beer.png; sourceTree = "<group>"; };
+		37D1EED31B99227C00CA6AEE /* MJDijkstra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJDijkstra.h; sourceTree = "<group>"; };
+		37D1EED41B99227C00CA6AEE /* MJDijkstra.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJDijkstra.m; sourceTree = "<group>"; };
+		37D1EED51B99227C00CA6AEE /* MJPriorityDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPriorityDictionary.h; sourceTree = "<group>"; };
+		37D1EED61B99227C00CA6AEE /* MJPriorityDictionary.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MJPriorityDictionary.mm; sourceTree = "<group>"; };
+		37D1EED71B99227C00CA6AEE /* MJPriorityQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPriorityQueue.h; sourceTree = "<group>"; };
+		37D1EED81B99227C00CA6AEE /* MJPriorityQueue.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MJPriorityQueue.mm; sourceTree = "<group>"; };
 		7D1CCBD1634E759089580AAA /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		8769BCD3D6D029B6FC2BA2D1 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD16058606A9D946A3102646 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
@@ -112,14 +118,13 @@
 		37D1EE911B97B88500CA6AEE /* DijkstraCodingChallenge */ = {
 			isa = PBXGroup;
 			children = (
+				37D1EED01B991D7100CA6AEE /* Utils */,
 				37D1EECA1B97ED9D00CA6AEE /* Resources */,
 				37D1EEC61B97EBD400CA6AEE /* Annotations */,
 				37D1EEBC1B97C9E500CA6AEE /* ViewControllers */,
 				37D1EEB81B97BA2000CA6AEE /* Models */,
 				37D1EE961B97B88500CA6AEE /* AppDelegate.h */,
 				37D1EE971B97B88500CA6AEE /* AppDelegate.m */,
-				37D1EE991B97B88500CA6AEE /* ViewController.h */,
-				37D1EE9A1B97B88500CA6AEE /* ViewController.m */,
 				37D1EE9C1B97B88500CA6AEE /* Main.storyboard */,
 				37D1EE9F1B97B88500CA6AEE /* Images.xcassets */,
 				37D1EEA11B97B88500CA6AEE /* LaunchScreen.xib */,
@@ -198,6 +203,27 @@
 				37D1EECC1B97EDAB00CA6AEE /* beer@2x.png */,
 			);
 			name = Icons;
+			sourceTree = "<group>";
+		};
+		37D1EED01B991D7100CA6AEE /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				37D1EEDC1B99228600CA6AEE /* Dijkstra */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		37D1EEDC1B99228600CA6AEE /* Dijkstra */ = {
+			isa = PBXGroup;
+			children = (
+				37D1EED31B99227C00CA6AEE /* MJDijkstra.h */,
+				37D1EED41B99227C00CA6AEE /* MJDijkstra.m */,
+				37D1EED51B99227C00CA6AEE /* MJPriorityDictionary.h */,
+				37D1EED61B99227C00CA6AEE /* MJPriorityDictionary.mm */,
+				37D1EED71B99227C00CA6AEE /* MJPriorityQueue.h */,
+				37D1EED81B99227C00CA6AEE /* MJPriorityQueue.mm */,
+			);
+			name = Dijkstra;
 			sourceTree = "<group>";
 		};
 		5165BFB57AC2A3C50E1A6972 /* Pods */ = {
@@ -348,10 +374,12 @@
 			files = (
 				37D1EEC51B97E87100CA6AEE /* DCPlace.m in Sources */,
 				37D1EEBB1B97BAB300CA6AEE /* GooglePlacesAPIClient.m in Sources */,
+				37D1EED91B99227C00CA6AEE /* MJDijkstra.m in Sources */,
 				37D1EEC91B97EBED00CA6AEE /* DCPlaceAnnotation.m in Sources */,
-				37D1EE9B1B97B88500CA6AEE /* ViewController.m in Sources */,
 				37D1EE981B97B88500CA6AEE /* AppDelegate.m in Sources */,
+				37D1EEDA1B99227C00CA6AEE /* MJPriorityDictionary.mm in Sources */,
 				37D1EEC21B97CA2900CA6AEE /* DCViewController.m in Sources */,
+				37D1EEDB1B99227C00CA6AEE /* MJPriorityQueue.mm in Sources */,
 				37D1EE951B97B88500CA6AEE /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
